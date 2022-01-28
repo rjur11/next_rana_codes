@@ -33,7 +33,7 @@ export default function Layout({ children, page }) {
           text-align: center;
         }
         div {
-          background: red;
+          background: lightgreen;
           display: flex;
           height: 100vh;
         }
