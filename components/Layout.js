@@ -49,7 +49,7 @@ export default function Layout({ children, page }) {
         }
       `}</style>
       <aside>
-        <h1>Rana Codes</h1>
+        <img src="./images/me.jpeg" height={100} width={100} />
         <nav>
           <ul>
             <NavLink href="/" title="Home" nolink={page === "home"} />
