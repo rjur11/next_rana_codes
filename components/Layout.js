@@ -25,15 +25,14 @@ export default function Layout({ children, page }) {
     <div>
       <style jsx>{`
         main {
-          left: 50%;
+          left: 60%;
           transform: translateX(-50%);
           position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
           text-align: center;
+          top: 30%;
         }
         div {
-          background: red;
+          background: lightgreen;
           display: flex;
           height: 100vh;
         }
@@ -50,7 +49,7 @@ export default function Layout({ children, page }) {
         }
       `}</style>
       <aside>
-        <h1>Rana Codes</h1>
+        <img src="./images/me.jpeg" height={100} width={100} />
         <nav>
           <ul>
             <NavLink href="/" title="Home" nolink={page === "home"} />
