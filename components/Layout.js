@@ -25,12 +25,11 @@ export default function Layout({ children, page }) {
     <div>
       <style jsx>{`
         main {
-          left: 50%;
+          left: 60%;
           transform: translateX(-50%);
           position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
           text-align: center;
+          top: 30%;
         }
         div {
           background: lightgreen;
