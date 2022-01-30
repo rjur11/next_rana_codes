@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <Layout page="projects">
       <h1>My Projects</h1>
-      <p>Check out the cool shtuff that I have built!</p>
+      <p>Check back soon to see all of the cool stuff I've been building.</p>
     </Layout>
   );
 }

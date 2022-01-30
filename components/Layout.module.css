@@ -1,0 +1,49 @@
+.main {
+  left: 60%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+  top: 30%;
+}
+
+.div {
+  background: lightgreen;
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.aside {
+  background: white;
+  box-shadow: 5px 1px 5px -5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.li {
+  padding: 10px;
+}
+
+.portrait {
+  border-radius: 50%;
+}
+
+.topAside {
+  flex: 1;
+}
+
+.socialLinks {
+  text-align: center;
+}
+
+.socialLink {
+  padding: 10px;
+}

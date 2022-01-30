@@ -4,7 +4,15 @@ export default function Skills() {
   return (
     <Layout page="skills">
       <h1>My Skills</h1>
-      <p>These are all of the things that I can do.</p>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React</li>
+        <li>NextJS</li>
+        <li>Python</li>
+        <li>Petting kitties...</li>
+      </ul>
     </Layout>
   );
 }
